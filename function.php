@@ -11,8 +11,8 @@ $header[] = "X-AppVersion: 3.30.2";
 $header[] = "X-UniqueId: ".time()."57".mt_rand(1000,9999);
 $header[] = "Connection: keep-alive";
 $header[] = "X-User-Locale: id_ID";
-$header[] = "X-Location: -6.6056797,106.7957953";
-$header[] = "X-Location-Accuracy: 0.0";
+$header[] = "X-Location: -6.9212751658159934,107.62244586389556";
+$header[] = "X-Location-Accuracy: 3.0";
 if ($pin):
 $header[] = "pin: $pin";
     endif;
@@ -56,7 +56,7 @@ function save($filename, $content)
 function nama()
     {
     $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, "http://ninjaname.horseridersupply.com/dutch_name.php");
+    curl_setopt($ch, CURLOPT_URL, "http://ninjaname.horseridersupply.com/indonesian_name.php");
     curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
     curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
     curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
