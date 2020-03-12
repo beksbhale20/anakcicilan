@@ -81,11 +81,11 @@ _     _           _
         if(strpos($verif, '"access_token"')){
         echo "\n";
         echo color("green","Successfully Registered\n");
-       $token = getStr('"access_token":"','"',$verif);
-       $uuid = getStr('"resource_owner_id":',',',$verif);
+        $token = getStr('"access_token":"','"',$verif);
+        $uuid = getStr('"resource_owner_id":',',',$verif);
         echo color("green","Your Access Token : ".$token."\n");
         exe($token);
-       save("tokenku.txt",$token);
+        save("tokenku.txt",$token);
         echo "\n";
         echo color("white","===========(INFORMATION ACCOUNT)===========");
         echo "\n";
@@ -174,11 +174,11 @@ _     _           _
         $voucher5 = getStr1('"title":"','",',$cekvoucher,"5");
         $voucher6 = getStr1('"title":"','",',$cekvoucher,"6");
         $voucher7 = getStr1('"title":"','",',$cekvoucher,"7");
-         $voucher8 = getStr1('"title":"','",',$cekvoucher,"8");
-          $voucher9 = getStr1('"title":"','",',$cekvoucher,"9");
-           $voucher10 = getStr1('"title":"','",',$cekvoucher,"10");
-            $voucher11 = getStr1('"title":"','",',$cekvoucher,"11");
-            echo "\n";
+        $voucher8 = getStr1('"title":"','",',$cekvoucher,"8");
+        $voucher9 = getStr1('"title":"','",',$cekvoucher,"9");
+        $voucher10 = getStr1('"title":"','",',$cekvoucher,"10");
+        $voucher11 = getStr1('"title":"','",',$cekvoucher,"11");
+        echo "\n";
         echo "\n".color("yellow","Total Voucher ".$total." : ");
         echo color("green","1. ".$voucher1);
         echo "\n".color("green","                     2. ".$voucher2);
