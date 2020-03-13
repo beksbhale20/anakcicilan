@@ -29,7 +29,6 @@ echo color("red","| GWANGZHOU PUNYA CRITA          |\n");
 echo "| Version : Pertamina      |\n";
 echo "| Time    :".date('[d-m-Y] [H:i:s]')."   |\n";
 echo " ===========================\n";
-
 // function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
