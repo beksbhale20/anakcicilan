@@ -77,7 +77,7 @@ function getStr1($a,$b,$c,$d){
 function color($color = "default" , $text)
     {
         $arrayColor = array(
-            'grey'      => '1;30',
+            'yellow'      => '1;30',
             'red'       => '1;31',
             'green'     => '1;32',
             'yellow'    => '1;33',
