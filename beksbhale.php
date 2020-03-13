@@ -17,18 +17,6 @@ echo color("white"," =================================== \n");
 echo color("white"," =================================== \n");
 echo color("white"," =================================== \n");
 echo color("white"," =================================== \n");         
-<?php
-date_default_timezone_set('Asia/Jakarta');
-include "function.php";
-echo color("red"," ===========================\n");
-echo color("red","| by : GERY SATRIADI|\n");
-echo color("red","| Auto daftar dan redeem gojek |\n");
-echo color("red","| WA :085760666427|\n");
-echo color("red","| FB:www.facebook.com/geryk1|\n");
-echo color("red","| GWANGZHOU PUNYA CRITA          |\n");
-echo "| Version : Pertamina      |\n";
-echo "| Time    :".date('[d-m-Y] [H:i:s]')."   |\n";
-echo " ===========================\n";
 // function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
